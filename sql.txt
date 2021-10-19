@@ -20,7 +20,11 @@ AND Quantity > 10;
 (4) Insert 3 rows into the Products table.  Note that you will have to specify a valid SupplierID and CategoryID, 
 corresponding to rows from the Supplier and Category tables.  Paste your three SQL statements below.
 
-
+INSERT INTO Products (ProductID, ProductName, SupplierID, CategoryID, Unit, Price)
+	VAlUES 
+    (NULL, "Kon's BIG SAUCE", 1, 2, "ONE BIG BOY", 25),
+    (NULL, "Ron's BIG SAUCE", 1, 2, "ONE BIG BOY", 25),
+    (NULL, "Jon's BIG SAUCE", 1, 2, "ONE BIG BOY", 25)
 
 (5) Update the two top rows of the Products Table to increase the price by 1.50. (Get SQL to do the addition for you.)  Paste your SQL statement below.
 
