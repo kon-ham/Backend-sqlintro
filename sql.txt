@@ -33,3 +33,5 @@ SET Price = (price + 1.50)
 WHERE ProductID IN(1, 2);
 
 (6) Delete all rows of the Products Table where the price is less than 7.00. Paste your SQL statement below.
+
+DELETE FROM Products WHERE Price < 7;
